@@ -1,0 +1,41 @@
+img{
+width:90%;
+height:250px;
+object-fit:cover;
+}
+
+/* video section */
+
+.section{
+position:relative;
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+overflow:hidden;
+}
+
+.bg-video{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+z-index:-1;
+}
+
+/* cards */
+
+.card{
+transition:0.3s;
+border:none;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
